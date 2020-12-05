@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #E5E5E5;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+section{
+    background: #FFF;
+}
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 100%;
+    min-width: 320px;
+    height: 6413px;
+    background: #fff;
+}
+
+.wrapper{
+    max-width: 1379px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #fff;
+}

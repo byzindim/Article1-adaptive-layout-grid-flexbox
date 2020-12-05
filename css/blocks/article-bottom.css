@@ -1,0 +1,79 @@
+.container-bottom{
+    margin-top: -24px;
+}
+.wrapper-bottom{
+    max-width: 688px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #fff;
+}
+.bold-article{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 688px;
+}
+.article-border{
+    display: flex;
+    width: 4px;
+    height: 139px;
+    margin: 0;
+    background: #C6003B;
+    border-radius: 2px;
+    transform: rotate(-0.1deg);
+}
+.quote-center{
+    max-width: 646px;
+    margin: 23px 0 0 26px;
+    font-family: Geometria;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 130.2%;
+    color: #000000;
+}
+.title-center{
+    max-width: 688px;
+    margin: 28px 0 24px 0;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 129.8%;
+    color: #000000;
+}
+.content-center-article{
+    max-width: 688px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.img-content-center{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 18px 0;
+    max-width: 682px;
+}
+.banner-center{
+    height: auto;
+    width: 100%;
+    max-width: 682px;
+}
+.title-content-center{
+    max-width: 146.71px;
+    margin: 17px 0 0 2px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #D3D3D3;
+}
+.banner-center-ipad{
+    display: none;
+}
+.ipad-marketing-link{
+    display: none;
+}

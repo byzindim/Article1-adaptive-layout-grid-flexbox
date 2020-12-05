@@ -1,0 +1,93 @@
+.container-top{
+    margin-top: 45px;
+}
+.grid-top{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-item-top{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: wrap;
+    margin: 0 9px 0 -3px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+.button1, .button2{
+    width: 99px;
+    height: 28px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.button1{
+    margin-right: 11px;
+}
+.gird-item-title-top{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    margin: -6px 0 24px -2px; 
+}
+
+.top-title-left{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 111.2%;
+    color: #000000;
+}
+.gird-item-p-top{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin: -1px 0 30px -1px; 
+}
+
+.top-content-left{
+    max-width: 926.18px;
+    font-family: Geometria;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130.2%;
+    color: #000000;
+}
+.gird-item-banner-top{
+    grid-column: 1/1;
+    grid-row: 4/4; 
+}
+
+.content-left-img{
+    height: auto;
+    width: 100%;
+    max-width: 1019px;
+    border-radius: 15px;
+}
+
+.img-title-left{
+    position: absolute;
+    max-width: 146.71px;
+    max-height: 16px;
+    margin: -40px 0 0 22px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #FFFFFF;
+}

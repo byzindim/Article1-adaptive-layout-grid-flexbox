@@ -1,0 +1,89 @@
+.header{
+    background: #fff;
+    padding-top: 35px;
+}
+
+.header-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.header-marketing{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 115.8%;
+    letter-spacing: 0.54em;
+    color: #C4C4C4;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 0 26px -7px;
+}
+
+.logo-link{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.header-icon {
+    margin: 21px 18px 0 0;
+}
+.icon-search{
+    height: auto;
+    width: 100%;
+    max-width: 22px;
+    margin-right: 20px;
+}
+.icon-user{
+    height: auto;
+    width: 100%;
+    max-width: 25px;
+}
+.menu{
+    max-width: 1920px;
+    background: #000;
+}
+
+.header-menu{
+    height: 48px;
+    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    background: #000;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu-item{
+    margin-right:45px;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+.button-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 25px 3px;
+}
+.button-group-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -6px;
+}
+.btn-health, .btn-pet, .btn-hobby{
+    height: 28px;
+    border: 1px solid #000000;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.btn-health, .btn-pet{
+    width: 99px;
+    margin: 0 10px 0 0;
+}
+.btn-hobby{
+    width: 77px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    margin-right: -8px;
+}
+.content-social-icon{
+   height: auto;
+   margin-right: 10px;
+}

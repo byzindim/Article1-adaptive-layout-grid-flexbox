@@ -1,0 +1,37 @@
+.container-end{
+    margin-left: -6px;
+}
+.img-end{
+    height: auto;
+    width: 100%;
+    max-width: 1031px;
+    height: 623px;
+    border-radius: 15px;
+}
+.next-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 22px 0 0 0;
+}
+.next-link{
+    margin-bottom: 9px;
+    font-family: Geometria;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 117.8%;
+    letter-spacing: 0.1em;
+    color: #C6003B;
+}
+.next-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 131px;
+    height: 0px;
+    border: 1px solid #C6003B;
+    background: #C6003B;
+}

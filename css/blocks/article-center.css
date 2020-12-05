@@ -1,0 +1,88 @@
+.container-center{
+    margin: 34px 0 0 29px;
+}
+.grid-center{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-item-center{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    max-width: 688px;
+    margin: -3px 0 0 -13px; 
+}
+.content-center-top{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.content-center-title{
+    margin: 26px 0 0 0;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 129.8%;
+    color: #000000;
+}
+.grid-item-center-article1{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    max-width: 688px;
+    margin: 30px 0 29px -13px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.grid-item-img-center{
+    grid-column: 2/2;
+    grid-row: 3/5;
+    margin-left: -13px;
+}
+.img-center{
+    height: auto;
+    width: 100%;
+    max-width: 688px;
+}
+.img-title-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 146.71px;
+    margin: 12px 0 0 2px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #D3D3D3;
+}
+.grid-item-center-article2{
+    grid-column: 2/2;
+    grid-row: 5/5;
+    max-width: 688px;
+    margin: 27px 0 0 -13px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.center-article2-p{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.img-center-ipad{
+    display: none;
+}
