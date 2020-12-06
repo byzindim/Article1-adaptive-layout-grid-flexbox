@@ -19,7 +19,7 @@
     flex-direction: column;   
 }
 
-.slider-banner1 {
+.slider-banner1{
     max-width: 324px;
     height: 260px;
     border-radius: 15px;
@@ -34,7 +34,7 @@
     height: 260px;
     border-radius: 15px;
 }
-.link-slider{
+.link-slider, .link-slider3{
     max-width: 277px;
     margin-left: 10px;
     font-family: Proxima Nova;
@@ -64,7 +64,12 @@
 
 @media screen and (max-width: 1024px){
     .container-slider{
-        margin: 19px 0 28px 0;
+        margin: 63px 0 23px 0;
+    }
+    .slider-banner1, 
+    .slider-banner2, 
+    .slider-banner3{
+        max-width: 310px;
     }
     .slider-border3{
         display: none;
@@ -75,10 +80,21 @@
     .slider-article4{
         display: none;
     }
+    .data-slider{
+        margin: 18px 0 0 22px;
+    }
+    .link-slider{
+        max-width: 266px;
+        margin: 36px 0 0 20px;
+    }
+    .link-slider3{
+        max-width: 266px;
+        margin: 14px 0 0 20px;
+    }
     .slider-p{
         display: flex;
         max-width: 258px;
-        margin-top: 15px;
+        margin-top: 11px;
         font-family: Proxima Nova;
         font-style: normal;
         font-weight: normal;
@@ -86,17 +102,23 @@
         line-height: 124.8%;
         color: #000000;
     }
+    .slider-border, .slider-border3{
+        margin: 2px 0 0 0;
+        height: 497px; 
+    }
+
     .ipad-marketing{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         max-width: 958px;
         height: 114px;
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
-
     }
     .ipad-marketing-link{
+        display: block;
+        text-transform: uppercase;
         font-family: Proxima Nova;
         font-style: normal;
         font-weight: 250;

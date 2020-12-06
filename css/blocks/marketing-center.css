@@ -71,4 +71,12 @@
     .grid-item-marketing3, .grid-item-marketing4{
         display: none;
     }
+    .grid-item-marketing1, .grid-item-marketing2{
+        max-width: 310px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    .grid-item-marketing2{
+        margin-top: -79px;
+    }
 }

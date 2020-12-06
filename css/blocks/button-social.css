@@ -35,3 +35,25 @@
    height: auto;
    margin-right: 10px;
 }
+
+@media screen and (max-width: 1024px){
+    .button-social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px 0 31px 5px;
+    }
+    .button-group-bottom{
+        margin-top: -3px;
+    }
+    .btn-health, .btn-pet{
+        width: 90px;
+        margin: 0 10px 0 0;
+    }
+    .btn-hobby{
+        width: 70px;
+    }
+    .social-media{
+        margin: -7px -16px 0 0;
+    }
+}

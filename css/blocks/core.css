@@ -36,10 +36,12 @@ a{
 }
 
 @media screen and (max-width: 1024px){
+    /* .container{
+        height: auto;
+    } */
     .wrapper{
         max-width: 960px;
     } 
-
     .wrapper-header{
         max-width: 1024px;
     }

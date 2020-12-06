@@ -41,3 +41,11 @@
     line-height: 109.2%;
     color: #4A4A4A;
 }
+
+@media screen and (max-width: 1024px){
+.materials-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+}
