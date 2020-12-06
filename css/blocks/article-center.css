@@ -86,3 +86,9 @@
 .img-center-ipad{
     display: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .grid-center{
+        grid-template-columns: 1fr 2fr;
+    }
+} 

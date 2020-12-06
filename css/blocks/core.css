@@ -28,9 +28,19 @@ a{
     background: #fff;
 }
 
-.wrapper{
+.wrapper, .wrapper-header{
     max-width: 1379px;
     min-width: 320px;
     margin: 0 auto;
     background: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .wrapper{
+        max-width: 960px;
+    } 
+
+    .wrapper-header{
+        max-width: 1024px;
+    }
 }

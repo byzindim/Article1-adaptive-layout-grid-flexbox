@@ -43,3 +43,8 @@
     height: 0px;
     border: 1px solid #C9C9C9;
 }
+
+@media screen and (max-width: 1024px){
+    .gird-item-right-top{
+        display: none;
+    } 

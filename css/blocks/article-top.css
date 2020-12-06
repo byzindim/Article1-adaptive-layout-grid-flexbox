@@ -91,3 +91,9 @@
     line-height: 115.8%;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+    .grid-top{
+        grid-template-columns: 1fr;
+    }
+} 

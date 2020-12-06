@@ -66,3 +66,9 @@
     letter-spacing: 0.54em;
     color: #C4C4C4;
 }
+
+@media screen and (max-width: 1024px) {
+    .grid-item-marketing3, .grid-item-marketing4{
+        display: none;
+    }
+}
