@@ -80,3 +80,9 @@
         width: 119px; 
     }
 }
+
+@media screen and (max-width: 376px){
+    .container-end{
+        display: none;
+    }
+}

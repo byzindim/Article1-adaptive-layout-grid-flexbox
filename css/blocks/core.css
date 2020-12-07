@@ -14,6 +14,7 @@ section{
     background: #FFF;
 }
 button{
+    background: #fff;
     cursor: pointer;
 }
 
@@ -36,13 +37,20 @@ a{
 }
 
 @media screen and (max-width: 1024px){
-    /* .container{
-        height: auto;
-    } */
     .wrapper{
         max-width: 960px;
     } 
     .wrapper-header{
         max-width: 1024px;
     }
+}
+
+
+@media screen and (max-width: 376px){
+    .container{
+        height: auto;
+    }
+    .wrapper{
+        max-width: 336px;
+    } 
 }

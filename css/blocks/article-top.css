@@ -93,6 +93,10 @@
 .banner-top-ipad{
     display: none;
 }
+.banner-top-mobile{
+    display: none;
+}
+
 .img-title-left{
     position: absolute;
     max-width: 146.71px;
@@ -139,3 +143,62 @@
         margin: -35px 0 0 22px;
     }
 } 
+
+@media screen and (max-width: 376px) {
+    .container-top{
+        margin-top: 22px;
+    }
+    .button-group{
+        margin: -5px -21px 0 0;
+    }
+    .button2{
+        display: none;
+    }
+    .data-top{
+        margin-left: 8px; 
+    }
+    .gird-item-title-top{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    margin: 16px 0 18px 3px; 
+}
+    .top-title-left{
+        max-width: 324px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        color: #000000;
+    }
+    .gird-item-p-top{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin: 0px 0 18px 5px; 
+    }
+    .top-content-left{
+        max-width: 324px;
+        font-family: Geometria;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130.2%;
+        color: #000000;
+    }
+    .content-left-img{
+        display: none;
+    }
+    .banner-top-ipad{
+        display: none;
+    }
+    .gird-item-banner-top{
+        margin-left: 3px;
+    }
+    .banner-top-mobile{
+        display: block;
+        border-radius: 15px;
+    }
+    .img-title-left{
+        display: none;
+    }
+}

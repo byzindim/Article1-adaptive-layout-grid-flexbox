@@ -80,3 +80,19 @@
         margin-top: -79px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .grid-item-marketing1{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        max-width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .grid-item-marketing2, .grid-item-marketing3, .grid-item-marketing4{
+        display: none;
+    }
+}
